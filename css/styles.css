@@ -1,0 +1,158 @@
+body{
+  color: #333;
+  font-family: yugothil, sans-serif;
+  margin: 0;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+header{
+  text-align: right;
+  padding: 10px;
+  background-image:
+  url(../img/header.png);
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 60px;
+}
+
+
+header ul{
+  list-style-type: none;
+  padding-top: 220px;
+  padding-left: 0;
+  margin-top: 0px;
+}
+
+header li{
+  display: inline-block;
+ font-size: 15px;
+}
+
+header a{
+  text-decoration: none;
+  color: inherit;
+  padding: 5px;
+}
+
+header a:hover{
+  color: royalblue;
+}
+
+.current {
+  border-bottom: 4px solid #333;
+}
+
+section {
+  text-align: center;
+}
+
+section h1 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+section p {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+section h2 {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+/* PRs */
+
+.PRs {
+  background-color: #f8f8f8;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.PRs  h1 {
+  padding-top: 20px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+}
+
+.PRs  h2 {
+  margin-top: 90px;
+}
+
+.PRs p {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.PRs .flex {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.pr {
+  width: 250px;
+  background: #fff;
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px 40px 25px;
+}
+
+.pr img{
+  border-radius: 10%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -75px;
+}
+
+/* works */
+
+.work .desc{
+  width: 360px;
+}
+
+.work:nth-of-type(odd) .desc{
+  float:right;
+  padding-left: 40px;
+}
+
+.work:nth-of-type(even) .desc{
+  float:left;
+  padding-right: 40px;
+}
+
+.icon {
+  border-radius: 50%;
+  /* border-color: #555;
+  border-width: 5px;
+  border-style: solid; */
+  border: 5px solid #555;
+}
+
+footer {
+  border-top: 1px solid #555;
+  width: 700px;
+  margin: 0 auto;
+}
+
+footer a:hover{
+  opacity: 0.6;
+}
+
+.about {
+  width: 400px;
+  margin: 0 auto 60px;
+}
+
+.about p {
+  text-align: left;
+}
